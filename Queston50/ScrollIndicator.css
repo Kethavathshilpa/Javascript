@@ -1,0 +1,27 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.container-bar{
+    width:100%;
+    height:20px;
+    position:fixed;
+    bottom:0;
+    z-index:1;
+    background:red;
+}
+#indicator{
+    height: 20px;
+    width:0%;
+    background: blue;
+}
+.textcontainer{
+    padding:50px 20px;
+    width:80%;
+    margin:auto;
+    font-size:25px;
+    font-family:cursive;
+    background-color: cadetblue;
+    box-shadow: 3px 3px 10px #000;
+}

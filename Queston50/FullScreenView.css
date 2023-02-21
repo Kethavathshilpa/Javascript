@@ -1,0 +1,30 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+#openbtn{
+    width:200px;
+    padding:20px;
+    font-size:25px;
+    font-family:cursive;
+    border-radius:50%;
+    outline:none;
+    border:none;
+    background-color:black;
+    position:absolute;
+    top:10%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color:#fff;
+    box-shadow:3px 3px 3px gray;
+}
+img{
+    width: 500px;
+    position:absolute;
+    padding:20px;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    box-shadow:3px 3px 10px #000;
+}

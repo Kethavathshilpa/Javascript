@@ -1,0 +1,82 @@
+*{
+ padding: 0;
+ margin:0;
+  box-sizing:border-box;    
+}
+.container1{
+    display:flex;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    /* border:1px solid black; */
+    padding :20px; 
+}
+.heading{
+    margin-right: 100px;
+    border:1px solid black;
+    width:150px;
+    padding:20px;
+    font-size:20px;
+    font-family:cursive;
+    /* letter-spacing: 2px; */
+    text-align: center;
+    cursor:pointer;
+    text-shadow:-1px 0 #fff,0 1px #fff,1px 0 #fff,0 -1px #fff;
+    box-shadow: 2px 2px 20px 5px #1d1919;
+}
+body{
+    background-image: url("https://www.drdo.gov.in/sites/default/files/subsite_banner_image/asl.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#color1{
+    background-color:aquamarine;
+}
+#color2{
+    background-color:rgb(255, 232, 127);
+}
+#color3{
+    background-color:rgb(233, 154, 193);
+}
+#color4{
+    background-color:rgb(127, 178, 255);
+}
+.container{
+    padding:20px;
+    position:fixed;
+    top:5%;
+     box-shadow:2px 2px 20px 5px #000;
+}
+.btn{
+   font-size:30px;
+   float:right; 
+   cursor: pointer;
+   color:white;
+   text-shadow: -1px 0 #9e4949,0 1px #c24c4c,1px 0 #b84343,0 -1px #d45555;
+}
+.text{
+    font-size:20px;
+    font-family:cursive;
+    text-shadow: -1px 0 #221e1e,0 1px #1d1919,1px 0 #160b0b,0 -1px #240606;
+
+}
+#box1{
+    display:none;
+   background-image:linear-gradient(rgb(150, 197, 61),#c42121)
+}
+#box2{
+    display:none;
+    background-image:linear-gradient(yellow,black);
+ }
+ #box3{
+    display: none;
+    background-image:linear-gradient(blue,#c42121)
+ }
+ #box4{
+    display: none;
+    background-image:linear-gradient(aqua,#afbd30)
+ }
+ 
+ 
+ 

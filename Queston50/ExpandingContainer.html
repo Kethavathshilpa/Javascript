@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expanding information to full width</title>
+    <link rel="stylesheet" href="ExpandingContainer.css">
+</head>
+<body>
+    <div class="container1">
+        <div class="heading"  id="color1" onclick="boxcontainer('box1')">Read more</div>
+        <div class="heading" id="color2" onclick="boxcontainer('box2')">About us </div>
+        <div class="heading" id="color3" onclick="boxcontainer('box3')">Know more</div>
+        <div class="heading" id="color4" onclick="boxcontainer('box4')">Address</div>
+    </div>
+
+    <div class="container" id="box1">
+    <span class="btn" onclick="this.parentElement.style.display='none' ">&times;</span>
+     <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Voluptates, beatae corrupti quas maiores aspernatur animi reiciendis ipsa repellendus, quasi deserunt,
+             placeat quo molestias quod fugit omnis in facere? Iste necessitatibus maiores neque, deserunt id, 
+             saepe sit dolorum libero eius ab rerum rem possimus obcaecati omnis perferendis beatae excepturi quae odio.
+    </p>
+    </div>
+    <div class="container" id="box2">
+    <span class="btn" onclick="this.parentElement.style.display='none' ">&times;</span>
+     <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Voluptates, beatae corrupti quas maiores aspernatur animi reiciendis ipsa repellendus, quasi deserunt,
+                 placeat quo molestias quod fugit omnis in facere? Iste necessitatibus maiores neque, deserunt id, 
+                 saepe sit dolorum libero eius ab rerum rem possimus obcaecati omnis perferendis beatae excepturi quae odio.
+    </p>
+    </div>
+    <div class="container" id="box3">
+        <span class="btn" onclick="this.parentElement.style.display='none' ">&times;</span>
+         <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Voluptates, beatae corrupti quas maiores aspernatur animi reiciendis ipsa repellendus, quasi deserunt,
+                 placeat quo molestias quod fugit omnis in facere? Iste necessitatibus maiores neque, deserunt id, 
+                 saepe sit dolorum libero eius ab rerum rem possimus obcaecati omnis perferendis beatae excepturi quae odio.
+        </p>
+        </div>
+        <div class="container" id="box4">
+            <span class="btn">&times;</span>
+             <p class="text" onclick="this.parentElement.style.display='none' ">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Voluptates, beatae corrupti quas maiores aspernatur animi reiciendis ipsa repellendus, quasi deserunt,
+                     placeat quo molestias quod fugit omnis in facere? Iste necessitatibus maiores neque, deserunt id, 
+                     saepe sit dolorum libero eius ab rerum rem possimus obcaecati omnis perferendis beatae excepturi quae odio.
+            </p>
+            </div>
+    <script src="ExpandingContainer.js"></script>
+    
+</body>
+</html>
