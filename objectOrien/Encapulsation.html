@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class Bank {
+            constructor(name, account_no, account_type)
+            {
+                this.name=name;
+                this.account_type=account_type;
+                this.account_no=account_no;
+            }
+            getName(){
+                return this.name;
+            }
+            getAccoountType() {
+                return this.account_type;
+            }
+            getAccountNo(){
+                return this.account_no
+            }
+            setName(newname){
+                this.name=newname;
+            }
+            setAccountNo(){
+                this.account_no=Math.floor(Math.random()*9000000000);
+            }
+            setAccountType(accounttype){
+                this.account_type=accounttype;
+            }
+        }
+        let shilpa=new Bank("shilpa",null,"saving")
+        let balu=new Bank("balu",null,"current")
+        console.log(shilpa.getName())
+        shilpa.setAccountNo();
+        console.log(shilpa.getAccoountType());
+    </script>
+    
+</body>
+</html>

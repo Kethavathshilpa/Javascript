@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //creating class
+        class mobile{
+            constructor(name,color){
+                this.name=name;
+                this.color=color;
+            }
+            calling(){
+                console.log("calling to shilpa")
+            }
+            playGames(){
+                console.log("playing games")
+            }
+            //setter method
+            setName(newname){
+                this.name=newname;
+            }
+        }
+            //creating object 
+            let redmi=new mobile("redmi note 7", "black");
+            let apple=new mobile("apple", "sliver");
+            console.log(redmi.name+" "+ redmi.color)
+            console.log(apple.name+" "+apple.color)
+            //calling methods 
+            redmi.calling()
+            redmi.playGames()
+            //using set method changing the name
+            redmi.setName("NARZO NOTE 7")
+            console.log(redmi.name);
+            //calling methods through apple object
+            apple.calling()
+            apple.playGames()
+        
+        
+    </script>
+</body>
+</html>
